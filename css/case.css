@@ -1,0 +1,64 @@
+header.title{  background: #0F132A; opacity: 0.8; position: fixed; padding: 0; margin: 0}
+.banner{background: url(../images/banCase.jpg) no-repeat; background-position: center center;
+    height: 350px;font-size: 38px; color: #fff;text-align: center;
+    padding-top: 130px}
+
+.case{ overflow:hidden; padding:0 0 70px;}
+.caseTop{ padding:50px 0; margin:0 -5px;}
+.caseTop li{ padding:5px;}
+.caseTop li a{ display:block; height:36px; line-height:34px; border:1px solid #d5d5d5;
+    padding:0 11px; color:#777777; border-radius:3px; transition:all 0.4s ease 0s;}
+.caseTop li.active a,.caseTop li a:hover{ background:#3855aa; border-color:#3855aa; color:#FFFFFF;}
+.caseBot{ padding-bottom:30px;}
+.caseBot li{ padding:0 7px 20px;}
+.caseBot li a{ display:block; height:100%; border:1px solid #dcdcdc; border-radius:4px;
+    font-size:13px; color:#8d8d8d; line-height:26px; padding:20px 100px 20px 0;
+    position:relative; transition:all 0.3s ease 0s;}
+.caseImg{ float:left; width:260px; height:84px;padding-top: 10px}
+.caseImg img{ margin:0 auto; max-width:100%; max-height:100%;}
+.caseTit{ font-size:18px; color:#555555; line-height:32px;}
+.caseBrief{ height:52px; overflow:hidden;}
+.caseIco{ width:36px; height:36px; border:1px solid #d3d3d3; text-align:center; line-height:32px;
+    font-size:22px; color:#3855aa; border-radius:50%; position:absolute; right:30px;
+    top:50%; transform:translateY(-50%); transition:all 0.3s ease 0s;}
+.caseBot li a:hover{ border-color:#FFFFFF; box-shadow:0 0 7px rgba(0,0,0,0.14);}
+.caseBot li a:hover .caseIco{ background:#3855aa; border-color:#3855aa; color:#FFFFFF;}
+.page{padding-left: 350px}
+
+.footerBg{ background:#333333; font-size:12px; color:#777777; line-height:26px; padding:20px 0;}
+.footTop{ padding:40px 0;}
+.footTopR{ float:right;}
+.kefu{ display:block; float:right; width:126px; height:38px; line-height:38px; margin-bottom:20px;
+    background:#df292e; color:#FFFFFF; border-radius:5px; text-align:center;}
+.kefu:hover{ color:#FFFFFF;}
+.fTel{ font-size:34px; color:#FFFFFF; line-height:150%;}
+.footLink{ font-size:0;}
+.footLink li{ vertical-align:top; font-size:12px; margin-right:60px; max-width:150px;}
+.footLink li:last-child{ margin-right:0;}
+.footLink h3 a{ font-size:16px; font-weight:bold; line-height:200%; color:#eeeeee;}
+.footSub{ padding:20px 0 0;}
+.footSub a{ font-size:12px; color:#777777; line-height:26px;}
+.footSub a:hover{ color:#FFFFFF; transition:all 0.3s ease 0s;}
+.footBot{ font-size:12px; color:#777777; padding:40px 0; border-top:1px solid rgba(255,255,255,0.1);}
+.footBot a{ color:#777777;}
+.footLogo{ float:right; padding-left:10px;}
+.footBot p{ line-height:24px; padding:9px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

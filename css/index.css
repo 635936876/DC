@@ -1,0 +1,96 @@
+header.title{  background: #0F132A; opacity: 0.8; position: fixed; padding: 0; margin: 0}
+
+section .shuju{height: 300px; }
+section .lunbo{background: url(../images/box1CenBg.png);
+    background-size: 100%; height: 470px; }
+section .lunbo .yy{padding-top: 80px}
+section .lunbo .yy ul{ float: right; padding-right: 40px}
+section .lunbo .yy h5{color: #fff; font-size: 25px; padding-bottom: 15px}
+section .lunbo .yy p{color: #fff; font-size: 13px; padding-bottom: 15px}
+section .lunbo .yy li a{color: #fff;  font-size: 12px; padding:3px 9px 3px 9px}
+section .lunbo .yy li a:hover{background: #3854A8; border-radius: 999px}
+section .lunbo .yy .aa{padding-left: 40px; margin-left: 180px}
+section .lunbo .yy .jt{color: #fff;font-size: 14px; border-radius: 999px;
+    border: 1px solid #fff;padding:5px 9px 5px 9px; width: 80px; }
+section .lunbo .yy .jt:hover{background: #f00;border: 1px solid #f00;}
+section .lunbo .yy .jtt{margin-top: 20px}
+
+section .da{width: 100%; height: 450px;}
+.box1Bot{ margin:0 -42px; padding:40px 0;}
+.box1Bot li{ padding:10px 42px;}
+.box1Bot li a{ display:block; height:100%;}
+.box1BotImgBg{ width:174px; height:174px; border:1px solid #dbdbdb;
+    border-radius:50%; margin:0 auto; position:relative; display:flex; justify-content:center;
+    align-items: center;}
+.box1BotImgBg:after{ display:block;position:absolute; top:29px; right:15px;
+    width:7px; height:7px; background:#3754a8; border-radius:50%;}
+.box1BotCir{ position:absolute; left:50%; top:50%; width:144px; height:144px;
+    margin-left:-72px; margin-top:-72px; background:url(../images/box1BotCir.png) center center no-repeat;
+    background-size:cover;}
+.box1BotImg{ width:84px; height:84px; background:#3754a8; display:flex;
+    justify-content:center; align-items:center; border-radius:50%; transition:all 0.4s ease 0s;}
+.box1BotH3{ font-size:20px; color:#222222; line-height:150%; padding:10px 0;}
+.box1BotBrief{ font-size:14px; color:#999999; line-height:26px; height:52px;
+    margin:0 0 20px; overflow:hidden;}
+.box1BotMore{ margin:0 auto; width:120px; height:40px; line-height:38px;
+    border:1px solid #324e9e; border-radius:999px; color:#324e9e; transition:all 0.4s ease 0s;}
+.box1Bot li a:hover .box1BotImg{ width:120px; height:120px;}
+.box1Bot li a:hover .box1BotMore{ border-color:#df292e; background:#df292e; color:#FFFFFF;}
+.box1Bot li a:hover .box1BotMore img.showsIn{ display:none;}
+.box1Bot li a:hover .box1BotMore img.hides{ display:inline-block;}
+
+section .fa{background: url(../images/box2Bg.jpg); width: 100%; height: 580px}
+.fa h1{color: #F9FBFD; font-size: 32px; font-weight: bold; text-align: center; padding-top: 110px}
+.fa p{color: #FFFFFF; font-size: 12px; text-align: center; padding-top: 30px; padding-bottom: 40px}
+.fa img{width:300px;height: 230px}
+.fa a{width:300px;height: 50px;font-size:16px; color:#fff; background:rgba(0,0,0,.6);
+    display:block; text-align:center; line-height:50px;position:absolute; left:15px; bottom:0;}
+
+section .hezuo{height: 440px}
+.hezuo h1{ font-size: 33px; color: #232323; text-align: center; padding-top: 50px}
+.hezuo p{font-size: 14px;text-align: center; padding-top: 30px; color: #ACABAB; padding-bottom: 50px}
+
+.box3List a{ display:block; height:100%; position:relative; overflow:hidden;}
+.box3List img{ margin:0 auto; padding-bottom: 30px}
+.box3Hov{ position:absolute; left:0; top:0; width:100%; height:100%; opacity:0; transform:scale(2); transition:all 0.4s ease 0s;}
+.box3List a:hover .box3Hov{ opacity:1; transform:scale(1);}
+
+section .shuzi{background: url(../images/box4Bg.jpg); width: 100%; height: 620px; position: absolute;}
+.shuzi h1{ font-size: 33px; color: #fff; text-align: center; padding-top: 70px}
+.shuzi p{font-size: 14px;text-align: center; padding-top: 30px; color: #FEFEFF; padding-bottom: 10px}
+.shuzi img{height: 60px; padding-left: 15px; opacity: 0.8}
+.shuzi h2{color: #fff; font-weight: bold; font-size: 38px; padding-top: 10px; padding-bottom: 10px}
+.shuzi li{color: #A5B4D4; font-size: 16px; font-weight: bold; padding-left: 30px;}
+.shuzi .pic{padding-left: 100px; padding-top: 40px}
+.shuzi .fr{padding-right: 100px}
+.shuzi .pic:hover li{color: #fff}
+.shuzi .pic:hover img{opacity: 1}
+
+.footerBg{ background:#333333; font-size:12px; color:#777777; line-height:26px; padding:20px 0;}
+.footTop{ padding:40px 0;}
+.footTopR{ float:right;}
+.kefu{ display:block; float:right; width:126px; height:38px; line-height:38px; margin-bottom:20px; background:#df292e; color:#FFFFFF; border-radius:5px; text-align:center;}
+.kefu:hover{ color:#FFFFFF;}
+.fTel{ font-size:34px; color:#FFFFFF; line-height:150%;}
+.footLink{ font-size:0;}
+.footLink li{ vertical-align:top; font-size:12px; margin-right:60px; max-width:150px;}
+.footLink li:last-child{ margin-right:0;}
+.footLink h3 a{ font-size:16px; font-weight:bold; line-height:200%; color:#eeeeee;}
+.footSub{ padding:20px 0 0;}
+.footSub a{ font-size:12px; color:#777777; line-height:26px;}
+.footSub a:hover{ color:#FFFFFF; transition:all 0.3s ease 0s;}
+.footBot{ font-size:12px; color:#777777; padding:40px 0; border-top:1px solid rgba(255,255,255,0.1);}
+.footBot a{ color:#777777;}
+.footLogo{ float:right; padding-left:10px;}
+.footBot p{ line-height:24px; padding:9px 0;}
+
+
+
+
+
+
+
+
+
+
+

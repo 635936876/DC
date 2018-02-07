@@ -1,0 +1,55 @@
+header.title{  background: #0F132A; opacity: 0.8; position: fixed; padding: 0; margin: 0}
+.banner{background: url(../images/banNews.jpg) no-repeat; background-position: center center;
+    height: 300px;font-size: 38px; color: #fff;text-align: center;
+    padding-top: 130px}
+
+.honour{ padding:70px 0; overflow:hidden;}
+.honTab{ font-size:0; margin:0 -10px;}
+.honTab li{ padding:0 10px;}
+.honTab li a{ display:block; font-size:15px; color:#555555; min-width:120px;
+    height:40px; line-height:38px; border:1px solid #aaaaaa; border-radius:3px;
+    transition:all 0.4s ease 0s;}
+.honTab li.active a,.honTab li a:hover{ background:#3855aa; border-color:#3855aa; color:#FFFFFF;}
+.honList{ margin:0 -16px; padding:30px 0;}
+.honList li{ padding:19px 16px;}
+.honList li a{ display:block; height:100%; padding:10px; border:1px solid #d9d9d9;
+    transition:all 0.4s ease 0s;}
+.honImg{ overflow:hidden; margin-bottom:10px;}
+.honImg img{ width:100%; transition:all 0.4s ease 0s;}
+.honTit{ font-size:13px; color:#666666; line-height:26px; transition:all 0.4s ease 0s;}
+.honList li a:hover{ border-color:#3855aa;}
+.honList li a:hover .honTit{ font-weight:bold; color:#3855aa;}
+.honMore{ display:block; width:378px; height:50px; line-height:50px; background:#f2f2f2;
+    font-size:16px; color:#666666; text-align:center; border-radius:25px; margin:0 auto;
+    transition:all 0.4s ease 0s;}
+.honMore i{ font-size:14px;}
+.honMore:hover,.honMore:focus:hover{ color:#FFFFFF; background:#3855aa;}
+.honMore:focus{ color:#666666;}
+
+.footerBg{ background:#333333; font-size:12px; color:#777777; line-height:26px; padding:20px 0;}
+.footTop{ padding:40px 0;}
+.footTopR{ float:right;}
+.kefu{ display:block; float:right; width:126px; height:38px; line-height:38px; margin-bottom:20px;
+    background:#df292e; color:#FFFFFF; border-radius:5px; text-align:center;}
+.kefu:hover{ color:#FFFFFF;}
+.fTel{ font-size:34px; color:#FFFFFF; line-height:150%;}
+.footLink{ font-size:0;}
+.footLink li{ vertical-align:top; font-size:12px; margin-right:60px; max-width:150px;}
+.footLink li:last-child{ margin-right:0;}
+.footLink h3 a{ font-size:16px; font-weight:bold; line-height:200%; color:#eeeeee;}
+.footSub{ padding:20px 0 0;}
+.footSub a{ font-size:12px; color:#777777; line-height:26px;}
+.footSub a:hover{ color:#FFFFFF; transition:all 0.3s ease 0s;}
+.footBot{ font-size:12px; color:#777777; padding:40px 0; border-top:1px solid rgba(255,255,255,0.1);}
+.footBot a{ color:#777777;}
+.footLogo{ float:right; padding-left:10px;}
+.footBot p{ line-height:24px; padding:9px 0;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <style>
+        li { list-style: none }
+
+        a { text-decoration: none }
+
+        a:hover { text-decoration: none }
+    </style>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/FontAwesome/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="plugin/swiper3/css/swiper.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugin/swiper3/js/swiper.min.js"></script>
+    <script src="plugin/swiper3/js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        window.onload = function () {
+            new WOW().init();//初始化
+        }
+    </script>
+</head>
+<body>
+<header class="title headerBg navbar-fixed-top ">
+    <div class="container-fluid">
+        <div class="logo wow pulse" data-wow-iteration="1000" data-wow-duration="2s"><a href="#"><img src="images/logo.png" class="img-responsive" alt=""></a></div>
+        <div class="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="hdRig">
+            <ul class="hdRigList list-unstyled">
+                <li><a class="hdTel" href="tel:010-52722366"><i class="fa fa-phone"></i></a><span>010-88888888</span>
+                </li>
+                <li><a class="hdShare" href="javascript:;"><i class="fa fa-weibo"></i></a></li>
+                <li><a class="hdShare" href="javascript:;"><i class="fa fa-weixin"></i></a>
+                    <div class="hdWx">
+                        <img src="images/wchat.jpg" class="img-responsive">
+                        <p>扫一扫，关注我们</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="navBox hidden-xs hidden-sm">
+            <ul class="navList list-unstyled">
+                <li class="navLi">
+                    <h3><a href="index.html"><span>首页</span></a></h3>
+                </li>
+                <li class="navLi">
+                    <h3><a href="onepage.html"><span>关于我们</span></a></h3>
+                    <div class="navSub">
+                        <ul class="navSubList list-unstyled">
+                            <li class="navSubLi">
+                                <h4><a href="article.html">公司介绍</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="article.html">大事记</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="honour.html">资质荣誉</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="artlist.html">新闻中心</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navLi">
+                    <h3><a href="chanpin.html"><span>产品与服务</span></a></h3>
+                    <div class="navSub">
+                        <ul class="navSubList list-unstyled">
+                            <li class="navSubLi">
+                                <h4><a href="https://www.baidu.com">大数据应用</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="https://www.jd.com">大数据服务</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">大数据项目</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">大数据报告</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navLi">
+                    <h3><a href="shuju.html"><span>大数据方案</span></a></h3>
+                    <div class="navSub">
+                        <ul class="navSubList list-unstyled">
+                            <li class="navSubLi">
+                                <h4><a href="#">行业应用解决方案</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">数据服务解决方案</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">报告服务解决方案</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navLi">
+                    <h3><a href="case.html"><span>案例</span></a></h3>
+                    <div class="navSub">
+                        <ul class="navSubList list-unstyled">
+                            <li class="navSubLi">
+                                <h4><a href="#">政府部门</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">公安部门</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">旅游部门</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="#">房地产</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navLi">
+                    <h3><a href="contact.html"><span>联系我们</span></a></h3>
+                    <div class="navSub">
+                        <ul class="navSubList list-unstyled">
+                            <li class="navSubLi">
+                                <h4><a href="partner.html">招商加盟</a></h4>
+                            </li>
+                            <li class="navSubLi">
+                                <h4><a href="contact.html">联系我们</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navBoxm"></div>
+    </div>
+</header>
+<div class="clearfix"></div>
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide Ban1" style="background-image:url(images/banner01.jpg);">
+                <div class="ban1Bg">
+                    <div class="stars"></div>
+                </div>
+                <div class="container hidden-xs hidden-sm">
+                    <div class="ban1Con">
+                        <div class="ban1Img">
+                            <div class="ban1Logo ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                 swiper-animate-delay="0.3s"><img src="images/ban1Logo.png" class="img-responsive">
+                            </div>
+                            <div class="ban1Cir ban1Cir1"></div>
+                            <div class="ban1Cir ban1Cir2"></div>
+                            <div class="ban1Cir ban1Cir3"></div>
+                            <div class="ban1Line ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                                 swiper-animate-delay="1.5s"></div>
+                            <ul class="ban1IcoItem list-unstyled">
+                                <li class="ban1IcoLi1 ani" swiper-animate-effect="fadeInLeft"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="2s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico1.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>舆情应用</p>
+                                    </a>
+                                </li>
+                                <li class="ban1IcoLi2 ani" swiper-animate-effect="fadeInLeft"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="2.3s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico2.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>互联网应用</p>
+                                    </a>
+                                </li>
+                                <li class="ban1IcoLi3 ani" swiper-animate-effect="fadeInLeft"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="2.6s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico3.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>大数据服务</p>
+                                    </a>
+                                </li>
+                                <li class="ban1IcoLi4 ani" swiper-animate-effect="fadeInRight"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="2.9s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico4.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>大数据项目</p>
+                                    </a>
+                                </li>
+                                <li class="ban1IcoLi5 ani" swiper-animate-effect="fadeInRight"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="3.2s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico5.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>大数据报告</p>
+                                    </a>
+                                </li>
+                                <li class="ban1IcoLi6 ani" swiper-animate-effect="fadeInRight"
+                                    swiper-animate-duration="0.3s" swiper-animate-delay="3.5s">
+                                    <a href="#">
+                                        <div class="ban1Ico"><img src="images/ban1Ico6.png"
+                                                                  class="img-responsive"><i></i></div>
+                                        <p>大数据方案</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ban1Text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                             swiper-animate-delay="0.3s">
+                            <img src="images/ban1Text.png" class="img-responsive">
+                            <a href="#" class="banLink">了解详情 <img src="images/box1BotMore2.png"></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="banMob"><a href="#"><img src="images/banner01M.jpg" class="img-responsive"></a></div>
+            </div>
+            <div class="swiper-slide Ban2" style="background-image:url(images/banner01.jpg);">
+                <div class="container hidden-xs hidden-sm">
+                    <div class="ban1Con">
+                        <div class="ban1Text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                             swiper-animate-delay="0.3s">
+                            <img src="images/ban1Text.png" class="img-responsive">
+                            <a href="#" class="banLink">了解详情 <img src="images/box1BotMore2.png"></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="banMob"><a href="#"><img src="images/banner02M.jpg" class="img-responsive"></a></div>
+            </div>
+        </div>
+    </div>
+    <a class="banBtn" href="javascript:;"></a>
+</div>
+<section>
+    <div class="shuju center" style="text-align: center">
+        <li class="wow slideInDown" data-wow-offset="10"
+            style="font-size: 22px; color: #969696; padding-top: 60px; margin-bottom: 40px">
+            星光数据平台今日数据<span class="counter" data-counter-time="1000" style="color: #E80B11; font-size: 40px"> 824,190,573 </span>条
+        </li>
+        <li class="wow slideInLeft" data-wow-offset="10"
+            style="font-weight: bold; font-size: 30px; margin-bottom: 40px; color: #000">产品与服务
+        </li>
+        <li class="wow slideInRight" data-wow-offset="10" style="font-size: 10px; color: #A6A5A5; line-height: 20px">
+            智慧星光采用SAAS模式为政府机构和企业提供互联网舆情监测与预警，企业口碑监测分析、
+            竞争情报分析、精准营销、人物画像、企业画像、行业市场研究、<br/>客户满意度分析、
+            风险评估、产品及业务流程优化等等多个场景的应用。
+        </li>
+    </div>
+
+    <div class="lunbo">
+        <!--<img src="images/box1CenPrev.png" style="padding-top: 150px; padding-left: 50px">-->
+        <div class="center wow bounceInUp" data-wow-offset="10" data-wow-duration="2s">
+            <div class="yy">
+                <img src="images/box1CenImg.png" style="height: 380px;">
+                <ul>
+                    <h5>舆情应用</h5>
+                    <p>采用SaaS模式，无需部署，快捷方便。人工智能技术，解放人<br/>力。多种应用覆盖舆情工作各个环节。</p>
+                    <li class="fl"><a href="#">· 舆情秘书</a></li>
+                    <li class="aa"><a href="#">· 舆情秘书（企业）</a></li>
+                    <li class="fl"><a href="#">· 舆情OA</a></li>
+                    <li class="aa"><a href="#">· 智慧研判</a></li>
+                    <li class="fl"><a href="#">· 重点人物监控平台</a></li>
+                    <li class="aa"><a href="#">· 智慧网评</a></li>
+                    <li class="jtt"><a href="#" class="jt">了解详情 →</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--<img src="images/box1CenNext.png">-->
+    </div>
+
+    <div class="da">
+        <div class="center">
+            <ul class="box1Bot  text-center">
+                <li class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="#" class="wow bounceInLeft" data-wow-offset="10" data-wow-duration="1.3s">
+                        <div class="box1BotImgBg">
+                            <div class="box1BotCir"></div>
+                            <div class="box1BotImg"><img src="images/box1BotImg1.png" class="img-responsive"></div>
+                        </div>
+                        <h3 class="box1BotH3 ellipsis">大数据服务</h3>
+                        <div class="box1BotBrief">
+                            <p>多年文本数据积累。数据清洗，数据定制，数据接口，数据文件</p>
+                        </div>
+                        <div class="box1BotMore">了解详情 <img src="images/box1BotMore1.png" class="showsIn"><img
+                                src="images/box1BotMore2.png" class="hides">
+                        </div>
+                    </a>
+                </li>
+                <li class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="#" class="wow bounceInUp" data-wow-offset="10" data-wow-duration="1.3s">
+                        <div class="box1BotImgBg">
+                            <div class="box1BotCir"></div>
+                            <div class="box1BotImg"><img src="images/box1BotImg2.png" class="img-responsive"></div>
+                        </div>
+                        <h3 class="box1BotH3 ellipsis">大数据项目</h3>
+                        <div class="box1BotBrief">
+                            <p>依托雄厚的技术积累，结合自身互联网数据为客户提供定制化服务</p>
+                        </div>
+                        <div class="box1BotMore">了解详情 <img src="images/box1BotMore1.png" class="showsIn"><img
+                                src="images/box1BotMore2.png" class="hides">
+                        </div>
+                    </a>
+                </li>
+                <li class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="#" class="wow bounceInRight" data-wow-offset="10" data-wow-duration="1.3s">
+                        <div class="box1BotImgBg">
+                            <div class="box1BotCir"></div>
+                            <div class="box1BotImg"><img src="images/box1BotImg3.png" class="img-responsive"></div>
+                        </div>
+                        <h3 class="box1BotH3 ellipsis">大数据报告</h3>
+                        <div class="box1BotBrief">
+                            <p>运用智能科学的文本大数据挖掘分析技术，依托600亿体量文本数据库，提供多维度全视角的报告服务</p>
+                        </div>
+                        <div class="box1BotMore">了解详情 <img src="images/box1BotMore1.png" class="showsIn"><img
+                                src="images/box1BotMore2.png" class="hides">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="fa">
+        <div class="center">
+            <h1 class="wow slideInUp" data-wow-offset="10">大数据方案</h1>
+            <p class="wow slideInUp" data-wow-offset="10" style="line-height: 20px">
+                智慧星光采用SAAS模式为政府机构和企业提供互联网舆情监测与预警，企业口碑监测分析、
+                竞争情报分析、精准营销、人物画像、企业画像、行业市场研究、<br/>客户满意度分析、
+                风险评估、产品及业务流程优化等等多个场景的应用。</p>
+            <li class="row">
+                <div class="col-md-3 wow flipInY" data-wow-duration="1.3s">
+                    <img src="images/box2Img1.jpg">
+                    <a href="#">行业应用解决方案</a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 wow flipInY" data-wow-duration="1.3s">
+                    <img src="images/box2Img2.jpg">
+                    <a href="#">数据服务解决方案</a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 wow flipInY" data-wow-duration="1.3s">
+                    <img src="images/box2Img3.jpg">
+                    <a href="#">报告服务解决方案</a>
+                </div>
+                <div class="col-md-1"></div>
+            </li>
+        </div>
+    </div>
+
+    <div class="center hezuo">
+        <h1 class="wow slideInUp" data-wow-offset="10">我们与合作伙伴为客户提供最精准有价值的数据</h1>
+        <p class="wow slideInUp" data-wow-offset="10">智慧星光公司是国内文本大数据服务的领导者，客户涵盖上市公司、零售品牌、金融机构、大学科研机构、
+            能源企业、数据公司以及 各级党政企事业单位等。<br/>15000+客户的选择。</p>
+        <div class="box3List wow wow rollIn" data-wow-offset="10">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img1.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img1a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img6.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img6a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img2.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img2a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img7.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img7a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img3.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img3a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img8.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img8a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img4.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img4a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img9.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img9a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img5.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img5a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img10.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img10a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img1.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img1a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img6.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img6a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img2.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img2a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img7.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img7a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img3.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img3a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img8.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img8a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img4.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img4a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img9.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img9a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img5.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img5a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img10.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img10a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img1.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img1a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img6.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img6a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img2.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img2a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img7.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img7a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img3.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img3a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img8.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img8a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img4.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img4a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img9.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img9a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img5.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img5a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="box3Img"><img src="images/box3Img10.jpg" class="img-responsive"></div>
+                            <div class="box3Hov"><img src="images/box3Img10a.jpg" class="img-responsive"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <span class="swiper-pagination"></span>
+        </div>
+    </div>
+    <div class="shuzi">
+        <div class="center">
+            <h1 class="wow slideInLeft" data-wow-offset="10" data-wow-duration="1.3s">15000+ 客户的选择</h1>
+            <p class="wow slideInRight" data-wow-offset="10" data-wow-duration="1.3s">
+                智慧星光公司是国内文本大数据服务的领导者，客户涵盖上市公司、零售品牌、金融机构、大学科研机构、
+                能源企业、数据公司以及各级党政企事业单位等。<br/> 使用客户15000余家，续单率达99.5%</p>
+            <div class="pic1 pic fl" style="padding-left: 50px">
+                <a href="#">
+                    <img class="wow swing" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img1.png">
+                    <h2 class="counter" data-counter-time="1000">10+</h2>
+                    <li>部委</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow swing" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img2.png">
+                    <h2>600+</h2>
+                    <li>宣传</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow swing" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img3.png">
+                    <h2>800+</h2>
+                    <li>公安</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow swing" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img4.png">
+                    <h2>50+</h2>
+                    <li>公检法</li>
+                </a>
+            </div>
+            <div class="pic1 pic fr">
+                <a href="#">
+                    <img class="wow swing" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img5.png">
+                    <h2>10+</h2>
+                    <li>军队</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl" style="padding-left: 50px">
+                <a href="#">
+                    <img class="wow wobble" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img6.png">
+                    <h2>200+</h2>
+                    <li>政务</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow wobble" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img7.png">
+                    <h2>20+</h2>
+                    <li>税务</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow wobble" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img8.png">
+                    <h2>100+</h2>
+                    <li>教育</li>
+                </a>
+            </div>
+            <div class="pic1 pic fl">
+                <a href="#">
+                    <img class="wow wobble" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img9.png">
+                    <h2>150+</h2>
+                    <li>医疗</li>
+                </a>
+            </div>
+            <div class="pic1 pic fr">
+                <a href="#">
+                    <img class="wow wobble" data-wow-offset="10" data-wow-duration="1.3s" src="images/box4Img10.png">
+                    <h2>10+</h2>
+                    <li>金融</li>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footerBg" style="margin-top: 620px">
+    <div class="container">
+        <div class="footTop">
+            <div class="footTopR text-right">
+                <a href="#" class="kefu"><img src="images/kefu.png"> 在线客服</a>
+                <div class="clear"></div>
+                <p class="fTel">010-52722366</p>
+                <p>（周一至周五8:30-17:30）</p>
+            </div>
+            <div class="footTopL">
+                <ul class="footLink list-unstyled list-inline">
+                    <li>
+                        <h3><a class="ellipsis" href="#">关于我们</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">公司介绍</a></p>
+                            <p><a class="ellipsis" href="#">大事记</a></p>
+                            <p><a class="ellipsis" href="#">资质荣誉</a></p>
+                            <p><a class="ellipsis" href="#">新闻中心</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3><a class="ellipsis" href="#">产品与服务</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">舆情应用</a></p>
+                            <p><a class="ellipsis" href="#">互联网信息识别分析应用</a></p>
+                            <p><a class="ellipsis" href="#">数据服务</a></p>
+                            <p><a class="ellipsis" href="#">项目服务</a></p>
+                            <p><a class="ellipsis" href="#">报告服务</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3><a class="ellipsis" href="#">解决方案</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">行业应用解决方案</a></p>
+                            <p><a class="ellipsis" href="#">数据服务解决方案</a></p>
+                            <p><a class="ellipsis" href="#">报告服务解决方案</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3><a class="ellipsis" href="#">案例</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">政府部门</a></p>
+                            <p><a class="ellipsis" href="#">公安部门</a></p>
+                            <p><a class="ellipsis" href="#">旅游部门</a></p>
+                            <p><a class="ellipsis" href="#">房地产</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3><a class="ellipsis" href="#">联系我们</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">招商加盟</a></p>
+                            <p><a class="ellipsis" href="#">联系我们</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3><a class="ellipsis" href="#">快捷登录</a></h3>
+                        <div class="footSub">
+                            <p><a class="ellipsis" href="#">舆情秘书</a></p>
+                            <p><a class="ellipsis" href="#">智慧网评</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footBot">
+            <img src="images/footLogo.png" class="footLogo">
+            <p>Copyright © 2001-2015 istarshine.com.All rights reserved. 京ICP备1200xxx号-1 京公网安xxx8号 </p>
+            <div class="clear"></div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
